@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<title>SAE</title>
+	<title>Sysme d'archivage électronique mutualisé</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=792, user-scalable=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -9,12 +9,20 @@
 </head>
 <body class="list">
 	<header class="caption">
-		<h1>Présentation</h1>
-		<p>Super</p>
+		<h1>Présentation du projet d'archivage électronique open source et mutualisé SAEM</h1>
+		<p>Un projet avec plein de partenaires, de l'agilité, du soleil et des bits ouverts</p>
 	</header>
-	<section class="slide cover" id="Cover"><div>
-		<h2>Couverture</h2>
-		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
+	<section class="slide cover" id="Cover">
+	<div>
+		<h2>Présentation</h2>
+		<p> 
+		<ul>
+			<li>Pascal Romain : <a href="https://www.twitter.com/keronos">Product Owner</a></li>
+			<li>Sylvain Thénault : <a href="https://www.twitter.com/sthenault">Scrum Master</a></li>
+			<li>Pierre-Etienne Cassagnau : Sys Admin Officer</li>
+
+		</ul>
+		</p>
 		<img src="pictures/bandgoSAEM.jp.png" alt="">
 		<!--
 			To apply styles to the certain slides
@@ -23,81 +31,93 @@
 		<style>
 			#Cover h2 {
 				margin:30px 0 0;
-				color:#FFF;
+				color:#010101;
 				text-align:center;
 				font-size:70px;
 				}
 			#Cover p {
 				margin:10px 0 0;
 				text-align:center;
-				color:#FFF;
+				color:#010101;
 				font-style:italic;
 				font-size:20px;
 				}
 				#Cover p a {
-					color:#FFF;
+					color:#010101;
 					}
 		</style>
-	</div></section>
-	<section class="slide"><div>
-		<h2>SAEM Features</h2>
-		<ol>
-			<li><a href="http://saem.e-bordeaux.org">Blog en ligne </a></li>
-			<li>Référencement sur les réseaux pro et sociaux <a href="http://twitter.com/projetsaem">@projetsaem</a></li>
-			<li>Présentation : Pascal Romain Product Owner - Delphine Jamet (<a href="https://demo.logilab.fr/saem-test/11677?vid=owlabox">e-archiviste</a></li>
-			<li>Sylvain Thénault Scrum Master</li>
-			<li>Pierre-Etienne Cassagnau Sys Admin Officer :)</li>
-		</ol>
-		<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Archivage et électronique</h2>
-		<p>Un mariage impossible ?.</p>
-	</div></section>
-	<section class="slide"><div>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>SAEM Features</h2>
+				<ol>
+					<li><a href="http://saem.e-bordeaux.org">Blog en ligne </a></li>
+					<li>Référencement sur les réseaux pro et sociaux <a href="http://twitter.com/projetsaem">@projetsaem</a></li>
+					<li>Delphine Jamet <a href="https://demo.logilab.fr/saem-test/11677?vid=owlabox">e-archiviste</a></li>
+				</ol>
+			<p class="note">Shower ['ʃəuə] noun. A person or thing that shows.</p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Archivage et électronique</h2>
+			<p>Un mariage impossible ?.</p>
+		</div>
+	</section>
+	<section class="slide">
+	<div>
 		<h2>Objectif : Rendre disponible les données de référence [et utiles à la gestion du cycle de vie des données documentaires]</h2>
 		<ol>
 			<li>Ge(d)stion courante : échanges de documents [Alfresco 5 Community]</li>
 			<li>Sae : gestion de la trace et de la transformation physique as@lae </li>
 			<li>Service de données : import/export transformation et communication CubicWeb	</li>
 			<li>Internet (sites archives ou insitutionnels ou open data)
+				<ul>
+					<li>https://demo.logilab.fr/saem-test/oai?verb=ListSets</li>
+					<li></li>un concept et toutes les archives liées ? https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=67717/T1-10</li>
+					<li>bienveillance : http://data.bnf.fr/12573796/bienveillance/</li>
+					<li>tous les versements de la Direction Enfance et Famille de la ville de Bordeaux https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=saemref-test/000067040</li>
+					<li>toutes les archives de Gironde : https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=saemref-test/000013710</li>
+				</ul>	
+				</li>
+			</ol>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Fonctionnalités :</h2>
 			<ul>
-				<li>https://demo.logilab.fr/saem-test/oai?verb=ListSets</li>
-				<li></li>un concept et toutes les archives liées ? https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=67717/T1-10</li>
-				<li>bienveillance : http://data.bnf.fr/12573796/bienveillance/</li>
-				<li>tous les versements de la Direction Enfance et Famille de la ville de Bordeaux https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=saemref-test/000067040</li>
-				<li>toutes les archives de Gironde : https://demo.logilab.fr/saem-test/oai?verb=GetRecord&identifier=saemref-test/000013710</li>
-			</ul>	
-			</li>
-		</ol>
-	</div></section>
-	<section class="slide"><div>
-		<h2>Fonctionnalités :</h2>
-		<ul>
-			<li>Récupération de données de référence externe (thésaurii, référentiels géo) </li>
-    <li>Récupération de données de référence interne (PC, acteurs, vocabulaires, organigramme)</li>
-    <li>Administration par des experts de la gestion des données de référence pour alimentation de qualité</li>
-    <li>Agrégation dans un entrepôt de référence des données du cycle de vie</li> 
-    <li>Catalogage des données de référence de l’archivage (organigramme et acteurs, profils, vocabulaires)</li>
-    <li>Simplification du processus d’archivage par réutilisation</li> 
-</ul>			
-	</div></section>
-	<section class="slide"><div>
-		<h2>Le mariage de raison - Plusieurs collectivités, plusieurs profils, plusieurs équipes de développement</h2>
-	</div></section>
+				<li>Récupération de données de référence externe (thésaurii, référentiels géo) </li>
+			    <li>Récupération de données de référence interne (PC, acteurs, vocabulaires, organigramme)</li>
+			    <li>Administration par des experts de la gestion des données de référence pour alimentation de qualité</li>
+			    <li>Agrégation dans un entrepôt de référence des données du cycle de vie</li> 
+			    <li>Catalogage des données de référence de l’archivage (organigramme et acteurs, profils, vocabulaires)</li>
+			    <li>Simplification du processus d’archivage par réutilisation</li> 
+			</ul>			
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Le mariage de raison</h2>
+			<h3>Plusieurs collectivités, plusieurs profils, plusieurs équipes de développement</h3>
+		</div>
+	</section>
 	<section class="slide"><div>
 		<h2>Organisation : Bordeaux, Gironde, Métro, Logilab, Adullact, Atos</h2>
 		<h2>Personnes</h2>
 		<ul>
-			<li>accompagnement : https://www.voisinville.in/index.php/s/Jm40IzweRNXIlFs</li>
-			<li>utilisation : https://www.voisinville.in/index.php/s/itiAfwj3wQwiKd6</li>
-			<li></li>qualité https://www.voisinville.in/index.php/s/ezHyLM0RiUq0v3Y</li>
-			<li>réglementation : https://www.voisinville.in/index.php/s/ZJXisIqU88MjboW</li>
-			<li>expertise https://www.voisinville.in/index.php/s/12CicEQtcfSI1xA</li>
-			<li>ingénierie https://www.voisinville.in/index.php/s/JYNH4ih5NZZeLFR</li>
-		</ul>
-	</div></section>
-	<section class="slide cover" id="Picture"><div>
+				<li>accompagnement<img src="pictures/qualiticien.png"></li>
+				<li>utilisation<img src="pictures/citoyen.png"></li>
+				<li>qualité<img src="pictures/documentation.png"></li>
+				<li>réglementation<img src="pictures/juriste.png"></li>
+				<li>expertise<img src="pictures/androidglenna-6cd4ea7100ba90ff539fbc2d9e38fd21.png"></li>
+				<li>ingénierie<img src="pictures/androidphilippe-f162992cead56f59e4e8ab3787ab1600.png"></li>
+			</ul>
+		</div>
+	</section>
+	<section class="slide cover" id="Picture">
+	<div>
 		<h2>plusieurs vocabulaires</h2>
 		<img src="pictures/picture.jpg" alt="">
 		<style>
@@ -105,29 +125,41 @@
 				color:#FFF;
 				}
 		</style>
-	</div></section>
-	<section><div>
-		<p>classement
-		<img src="pictures/PlanClassement.jpg" alt="image d'un plan de classement"></p>
-			
-	</div></section>
-	<section class="slide"><div>
-		<h2>Vocabulaire</h2>
+	</div>
+	</section>
+	<section class="slide">
+		<div>
+			<p>classement
+			<img src="pictures/PlanClassement.jpg" alt="image d'un plan de classement"></p>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Vocabulaire</h2>
 			<img src="pictures/Thesaurus.jpg">
 			<img src="pictures/lod-datasets_2009-03-27_colored.png">
-	</div></section>
-	<section><div>
-		<h2>Archivage et open source ?</h2>
-	</div></section>
-	<section><div>
-		<h2>obsolescence des formats (des logiciels aussi, non ?)</h2>
-		<img src="pictures/525inchOptical_0.jpeg">
-		<img src="pictures/cd_0.jpeg">
-	</div></section>
-		<section><div>
-		<h2>auditabilité du système</h2>
-		<img src="pictures/audit.jpeg">
-	</div></section>
+		</div>
+	</section>
+	<section class="slide">
+		<div>
+			<h2>Archivage et open source ?</h2>
+		</div>
+	</section>
+	
+	<section class="slide">
+		<div>
+			<h2>obsolescence des formats (des logiciels aussi, non ?)</h2>
+			<img src="pictures/525inchOptical_0.jpeg">
+			<img src="pictures/cd_0.jpeg">
+		</div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>auditabilité du système</h2>
+			<img src="pictures/audit.jpeg">
+		</div>
+	</section>
 	
 	<style>
 			#Picture h2 {
@@ -141,12 +173,11 @@
 				height:0.72em;
 				}
 		</style>
-	</div></section>
 	<!--
 		To hide progress bar from entire presentation
 		just remove “progress” element.
 		-->
-	<div class="progress"><div></div></div>
+	<div class="progress"></div>
 	<script src="shower/shower.min.js"></script>
 	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
 	<!-- Photos by John Carey, fiftyfootshadows.net -->
