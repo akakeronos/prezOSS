@@ -38,6 +38,18 @@ ul.exemple li{
   font-size:20px;
   color:#999;
 }
+.part  {
+  background-color: #000 !important;
+}
+.part h2 {
+  color: #FFF !important;
+  font-size:60px;
+  text-align:center;
+}
+.part h3 {
+  color: #FFF !important;
+  text-align:center;
+}
 	  </style>
   </head>
   <body class="list">
@@ -53,9 +65,16 @@ ul.exemple li{
 	  <p>Sylvain Thénault (Scrum Master) <a href="http://twitter.com/sythenault">@sythenault</a></p>
 	  <p>Pierre-Etienne Cassagnau (Sys Admin Officer)</p>
         <img src="pictures/girondedepartement1.fw.png" style="float: left; margin-bottom: 20px;"/>
-		<img src="pictures/girondedepartement1.fw.png" style="float: left; margin-bottom: 20px;"/>
         <img src="pictures/logilab.svg" style="float: right;"/>
 	</div></section>
+
+
+	<section class="slide cover part">
+		<div>
+			<h2>Problématiques</h2>
+		</div>
+	</section>
+
 	<section class="slide">
 		<div>
 			<h2>Archivage et électronique : un mariage impossible ?</h2>
@@ -65,38 +84,45 @@ ul.exemple li{
 			</p>
 		</div>
 	</section>
-		<section class="slide">
-	<div>
-		<h3>Plusieurs vocabulaires pour exprimer la même idée : besoin d'interface</h3>
-		<img src="pictures/partage2.png" alt="">
-	</div>
-	</section>
+
 	<section class="slide">
-	<div>
+	  <div>
+		<h2>Plusieurs vocabulaires pour exprimer la même idée</h2>
+		<img src="pictures/partage2.png" />
+	  </div>
+	</section>
+
+	<section class="slide">
+	  <div>
 		<h2>Classement</h2>
-		<img src="pictures/PlanClassement.jpg" alt="">
-	</div>
+		<img src="pictures/PlanClassement.jpg" />
+	  </div>
 	</section>
+
 	<section class="slide">
-		<div>
-			<h2>Vocabulaire</h2>
-			<img src="pictures/Thesaurus.jpg" style="width: 40%; float: left;">
-			<img src="pictures/lod-datasets_2009-03-27_colored.png" style="float: right;">
-		</div>
+	  <div>
+	    <h2>Vocabulaire</h2>
+	    <img src="pictures/Thesaurus.jpg" style="width: 40%; float: left;"/>
+	    <img src="pictures/lod-datasets_2009-03-27_colored.png" style="float: right;"/>
+	  </div>
 	</section>
+
 	<section class="slide">
 		<div>
 			<h2>Entité-relation</h2>
 			<img src="pictures/entityrelation2.png">
 		</div>
 	</section>
-		<section class="slide">
-		<div>
-			<h2>Le mariage de raison</h2>
-			<h3>Plusieurs collectivités, plusieurs profils, plusieurs équipes de développement</h3>
-		</div>
+
+	<section class="slide part cover">
+	  <div>
+	    <h2>Le mariage de raison</h2>
+	  </div>
 	</section>
-	<section class="slide">		<div style="position:absolute; bottom:0px;">
+
+	<section class="slide">
+	  <div>
+		<h2>Des personnes et des compétences complémentaires</h2>
 		<img src="pictures/qualiticien.png" style="width: 78px; height: 130px; float: right;">
 		<img src="pictures/citoyen.png" style="width: 78px; height: 130px; float: right;">
 		<img src="pictures/documentation.png" style="width: 78px; height: 130px; float: right;">
@@ -105,7 +131,6 @@ ul.exemple li{
 		<img src="pictures/androidphilippe-f162992cead56f59e4e8ab3787ab1600.png" style="width: 78px; height: 130px;float: right;">
 		</div>
 		<div style="position:absolute; top:120px;">
-		<h3>Des personnes et des compétences complémentaires : COPROJ métiers...</h3>
 		<ul >
 				<li><a href="https://demo.logilab.fr/saem-test/11677?vid=owlabox">e-archiviste</a></li>
 				<li>accompagnement</li>
@@ -116,44 +141,77 @@ ul.exemple li{
 				<li>ingénierie</li>
 			</ul>
 		</div >
-
 	</section>
+
+	<section class="slide">
+	  <div>
+	    <h2>Naissance d'une équipe</h2>
+          <ul>
+            <li>Un comité de projet est mis en place pour piloter le projet côté collectivités</li>
+	      <li>Plusieurs équipes de développement intéragissent sur différentes composantes du système</li>
+	      <li>Un administrateur système "dédié"</li>
+          </ul>
+	  </div>
+	</section>
+
+	<section class="slide part cover">
+	  <div>
+	    <h2>Archivage et open source ?</h2>
+	  </div>
+	</section>
+
+	<section class="slide"><div>
+	  <h2>Pourquoi le libre ?</h2>
+	  <ul style="width: 60%; float: left;">
+	    <li><strike>préconisé par l'état</strike></li>
+	    <li>surtout <b>logique</b> dans le cadre d'investissements pour répondre à un besoin commun</li>
+          <li>on bénéficie de briques existantes, on contribue en retour</li>
+	  </ul>
+	  <img src="pictures/ecoEchelleAnime.gif" style="float: left; width: 40%;"/>
+	</div></section>
+
+	<section class="slide">
+	<div>
+		<h2>Obsolescence des formats </h2>
+		<img src="pictures/525inchOptical_0.jpeg" alt="" style="float: left;">
+		<p class="note" style="float: right;">(des logiciels aussi, non ?)</p>
+	</div>
+	</section>
+
 	<section class="slide">
 		<div>
-			<h2>et technique</h2>
+			<h2>Auditabilité du système</h2>
+			<img src="pictures/audit.jpeg">
 			<ul>
-				<li>Besoin d'un contact unique au sein de la DSI qui exploite le matériel utilisé par le projet (Département de la Gironde)</li>
-			    <li>Intégration dans le projet via une formation fonctionnelle spécifique</li>
-			    <li>Mise en place de solutions OpenSource (Red-Hat) comme plateforme de validation et de tests pour les différentes briques applicative</li> 
-				<li>Necessité de faire le lien entre les prestataires technique et les archivistes fonctionnels des différentes collectivitées</li>
-			    <li>Mise en adéquation de la solution technique en vue d'une utilisation comme opérateur d'archivage</li>
-			</ul>			
+			<li>code ouvert = sécurité et pérennité</li>
+			<li>abstraction du stockage pour éviter l'adhérence avec le matériel </li>
+			<li>migration des documents vers des données ouvertes</li>
+			</ul>
 		</div>
 	</section>
+
+
+	<section class="slide part cover">
+	  <div>
+	    <h2>De l'idée à la réalisation...</h2>
+	  </div>
+	</section>
+
 	<section class="slide">
-	<div>
-		<h2>Objectif : Rendre disponible les données de référence [et utiles à la gestion du cycle de vie des données documentaires]</h2>
-		<ol>
-			<li>Ge(d)stion courante : échanges de documents [<a href="http://www.alfresco.com">Alfresco 5 Community</a>]</li>
-			<li>Sae : gestion de la trace et de la transformation physique <a href="http://www.adullact.com/asalae">as@lae</a> </li>
-			<li>Service de données : import/export transformation et communication <a href="https://www.cubicweb.org/project/cubicweb-saem_ref">CubicWeb</a></li>
-		</ol>
+	  <div>
+	    <h2>Phase 1</h2>
+          <p>XXX Feed me</p>
+	  </div>
+	</section>
+
+	<section class="slide">
+		<div>
+			<h2>La vision modulaire</h2>
+                  <p>un ensemble de modules interopérables</p>
+			<img src="pictures/visionModulaire.jpg" style="width: 400px;">
 		</div>
-	</section>		
-	<section class="slide">
-	<div>
-	  <h2>Objectif : rendre réutilisables les données de référence sur internet</h2>
-          <h3>Collecter les données au long du cycle de vie des données documentaires</h3>
-            <ul style="width: 70%; float: left;">
-              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=ListSets">accès par entités </a></li>
-              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=67717/T1-10">archives liées à un concept</a></li>
-              <li><a href="http://data.bnf.fr/12573796/bienveillance">faire des liens vers d'autres corpus : bienveillance</a></li>
-              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000067040">versements de la Direction Enfance et Famille de la ville de Bordeaux</a> </li>
-              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000013710">archives de Gironde</a> </li>
-            </ul>
-		  <img src="pictures/lod-datasets_2009-03-27_colored.png" style="float: right; width : 191px;"/>
-      </div>
-	  </section>
+	</section>
+
 	<section class="slide"><div>
 	  <h2>Composantes du SAEM</h2>
 	  <ul style="width: 60%; float: left;">
@@ -166,114 +224,132 @@ ul.exemple li{
         <div style="clear: both;"></div>
 	  <p>mais surtout <b>interopérable</b> grâce aux techniques du Web Sémantique, et <b>libre</b>.</p>
 	</div></section>
-	<section class="slide">
-		<div>
-			<h2>La vision modulaire :  un ensemble de modules interopérables</h2>
-			<img src="pictures/visionModulaire.jpg" style="width: 400px;">
-		</div>
-	</section>
-		<section class="slide">
-		<div>
-			<h2>Archives ouvertes ? </h2>
-			<div style="float : left; width : 40%;">
-				Modèle de données structuré
-			</div>
-			<div style="float : right;">
-			<img src="pictures/dataModel.png" alt="" style="width: 850px;">
-			</div>
-		</div>
+
+	<section class="slide"><div>
+	  <h2>Phase 2 : dev agile</h2>
+	  <ul>
+	    <li>fonctionnement agile entre le COPROJ et Logilab</li>
+	    <li>ateliers au fil de l'eau, y compris sur la définition du modèle</li>
+	    <li>lean canvas 2015</li>
+	    <li>10 sprints : sprint 0 + 9 releases "majeures"</li>
+	  </ul>
+	</div></section>
+
+
+	<section class="slide part cover">
+	  <div>
+	    <h2>Bilan d'étape</h2>
+	  </div>
 	</section>
 
 	<section class="slide">
-		<div>
-			<h2>Données et métadonnées ?</h2>
-			<img src="pictures/contextualisation.jpeg" alt="">
-		</div>
-	</section>	
+	  <div>
+	    <h2>Un pivot pour les données structurées</h2>
+	    <ul>
+		<li>données de référence externe (thésaurii, référentiels géo) </li>
+		<li>données de référence interne (PC, acteurs, vocabulaires, organigramme)</li>
+		<!-- <li>Agrégation dans un entrepôt de référence des données du cycle de vie</li>  -->
+		<!-- <li>Catalogage des données de référence de l’archivage (organigramme et acteurs, profils, vocabulaires)</li> -->
+	    </ul>
+		<p>Administration par des experts : alimentation de qualité</p>
+		<p>Simplification du processus d’archivage par réutilisation</p> 
+	  </div>
+	</section>
+
 	<section class="slide">
-		<div>
-			<h2>Archivage et open source ?</h2>
-		</div>
+	  <div>
+	    <h2>Archives ouvertes</h2>
+	    <div style="float : left; width : 40%;">
+		Modèle de données structuré
+	    </div>
+	    <div style="float : right;">
+		<img src="pictures/dataModel.png" alt="" style="width: 850px;"/>
+	    </div>
+	  </div>
 	</section>
-		<section class="slide"><div>
-	  <h2>Pourquoi le libre ?</h2>
-	  <ul style="width: 60%; float: left;">
-	    <li><strike>préconisé par l'état</strike></li>
-	    <li>surtout <b>logique</b> dans le cadre d'investissements pour répondre à un besoin commun</li>
-          <li>on bénéficie de briques existantes, on contribue en retour</li>
-	  </ul>
-        <img src="pictures/logicielslibres.png" style="float: right;"/>
-        <p class="legend">CC-By-NC-SA netpublic.fr</p>
-	</div></section>
-			<section class="slide">
-		<div>
-			<h2>Economie d'échelle</h2>
-			<img src="pictures/ecoEchelleAnime.gif" alt="">
-		</div>
-	</section>
+
 	<section class="slide">
 	<div>
-		<h2>Obsolescence des formats </h2>
-		<img src="pictures/525inchOptical_0.jpeg" alt="" style="float: left;">
-		<p class="note" style="float: right;">(des logiciels aussi, non ?)</p>
-	</div>
+	  <h2>Réutilisabilité des données de référence</h2>
+            <ul style="width: 70%; float: left;">
+              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=ListSets">accès par entités </a></li>
+              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=67717/T1-10">archives liées à un concept</a></li>
+              <li><a href="http://data.bnf.fr/12573796/bienveillance">faire des liens vers d'autres corpus : bienveillance</a></li>
+              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000067040">versements de la Direction Enfance et Famille de la ville de Bordeaux</a> </li>
+              <li><a href="https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000013710">archives de Gironde</a> </li>
+            </ul>
+		<img src="pictures/lod-datasets_2009-03-27_colored.png" style="float: right; width : 191px;"/>
+      </div>
 	</section>
+
 	<section class="slide">
-		<div>
-			<h2>auditabilité du système</h2>
-			<img src="pictures/audit.jpeg">
-			<ul>
-			<li>code ouvert = sécurité et pérennité</li>
-			<li>abstraction du stockage pour éviter l'adhérence avec le matériel </li>
-			<li>Migration des documents vers des données ouvertes</li>
-			</ul>
-		</div>
+	  <div>
+	    <h2>Processus d'archivage</h2>
+	    <p>XXX intéraction asalae / alfresco / ref et gains à ce jour
+	    </p>
+	  </div>
 	</section>
+
 	<section class="slide">
-		<div>
-			<h2>Le module référentiel : un pivot pour les données structurées</h2>
-			<ul>
-				<li>Récupération de données de référence externe (thésaurii, référentiels géo) </li>
-			    <li>Récupération de données de référence interne (PC, acteurs, vocabulaires, organigramme)</li>
-			    <li>Administration par des experts de la gestion des données de référence pour alimentation de qualité</li>
-			    <li>Agrégation dans un entrepôt de référence des données du cycle de vie</li> 
-			    <li>Catalogage des données de référence de l’archivage (organigramme et acteurs, profils, vocabulaires)</li>
-			    <li>Simplification du processus d’archivage par réutilisation</li> 
-			</ul>			
-		</div>
+	  <div>
+	    <h2>Plateforme technique opérationnelle</h2>
+	    <ul>
+		<li>Mise en adéquation de la solution technique en vue d'une utilisation comme opérateur d'archivage</li>
+		<li>Nécessité de faire le lien entre les prestataires technique et les archivistes fonctionnels des différentes collectivitées</li>
+		<li>Un contact unique au sein de la DSI qui exploite le matériel utilisé par le projet (Département de la Gironde)</li>
+		<!-- <li>Intégration dans le projet via une formation fonctionnelle spécifique</li> -->
+		<li>Solutions OpenSource (Red-Hat) comme plateforme de validation et de tests pour les différentes briques applicative</li>
+	    </ul>
+	  </div>
 	</section>
-	<section class="slide"><div>
-		<h2>Dev agile</h2>
-		<ul>
-			<li>fonctionnement agile entre le COPROJ et Logilab</li>
-			<li>ateliers au fil de l'eau, y compris sur la définition du mdd</li>
-			<li>pertinence de CW dans ce contexte</li>
-			<li>lean canvas 2015</li>
-			<li>10 sprints : sprint 0 + 9 releases "majeures"</li>
-		</ul>
-	</div></section>
+
 	<section class="slide"><div>
 	  <h2>Contributions à ce jour</h2>
 	  <ul style="width: 60%; float: left;">
 	    <li>composant SKOS pour CubicWeb,</li>
 	    <li>Linked CSV -> RDF,</li>
 	    <li>base pour une implémentation SEDA v0.2->2.0,</li>
+	    <li>XXX contrib asalae / alfresco</li>
 	    <li>mais aussi des réflexions autour des ontologies et thésaurus pour la gestion d'archives.</li>
 	  </ul>
         <img src="pictures/Moebius_strip.png" style="float: right;"/>
         <p class="legend">CC-By-SA Krishnavedala</p>
 	</div></section>
 
+	<!-- <section class="slide"> -->
+	<!-- 	<div> -->
+	<!-- 		<h2>Données et métadonnées ?</h2> -->
+	<!-- 		<img src="pictures/contextualisation.jpeg" /> -->
+	<!-- 	</div> -->
+	<!-- </section> -->
+
+	<section class="slide part cover">
+	  <div>
+	    <h2>Et maintenant ?</h2>
+	  </div>
+	</section>
+
 	<section class="slide"><div>
-	  <h2>Et maintenant ?</h2>
+	  <h2>Bâtir sur ce socle...</h2>
 	  <ul>
-	    <li>Le meilleur reste à venir : suivi du cycle de vie des objets d'archives ;</li>
-		<li>Utilisation de l'environnement technique de stockage des données archivées</li>
+	    <li>Le meilleur reste à venir : alimentation du référentiel avec les données issues du
+	    cycle de vie des objets d'archives ;</li>
+	    <li>Utilisation de l'environnement technique de stockage des données archivées ; XXX</li>
+	    <li>Plus de connecteurs !</li>
+	  </ul>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Avec vous ?</h2>
+	  <ul>
+          <!-- <li><a href="https://www.cubicweb.org/project/cubicweb-saem_ref">CubicWeb</a></li> -->
 	    <li>Adaptez le à votre environnement et contribuez des connecteurs dès maintenant !</li>
 		<li><a href="http://saem.e-bordeaux.org">Blog en ligne </a></li>
 	    <li>Suivez nous : <img src="pictures/twitter.png"/> <a href="http://twitter.com/projetsaem">@projetsaem</a>  <a href="http://twitter.com/logilab">@logilab</a></li>
 	  </ul>
+        <p>Merci !</p>
 	</div></section>
+
 
 	<div class="progress"></div>
 	<script src="shower/shower.min.js"></script>
