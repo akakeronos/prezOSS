@@ -33,6 +33,11 @@ p.legend {
   font-size:16px;
   float: right;
 }
+ul.exemple li{
+  text-decoration: none;
+  font-size:20px;
+  color:#999;
+}
 	  </style>
   </head>
   <body class="list">
@@ -40,17 +45,17 @@ p.legend {
 		<h1>Présentation du projet d'archivage électronique open source et mutualisé SAEM</h1>
 		<p>Un projet avec plein de partenaires, de l'agilité, du soleil et des bits ouverts</p>
 	</header>
-	<section class="slide cover" id="Cover">
-	<div>
-		<h2>Paris Open Source Summit - 19 novembre 2015</h2>
-		<img src="pictures/bandgoSAEM.jp.png" class="title" style="width: 100%"/>
-		<p>Pascal Romain (Product Owner) <a href="http://twitter.com/keronos">@keronos</a></p>
-		<p>Sylvain Thénault (Scrum Master) <a href="http://twitter.com/sythenault">@sythenault</a></p>
-		<p>Pierre-Etienne Cassagnau (Sys Admin Officer)</p>
-            <img src="pictures/girondedepartement1.fw.png" style="float: left; margin-bottom: 20px;"/>
-            <img src="pictures/logilab.svg" style="float: right;"/>
 
+	<section class="slide cover" id="Cover"><div>
+	  <h2>Paris Open Source Summit - 19 novembre 2015</h2>
+	  <img src="pictures/bandgoSAEM.jp.png" class="title" style="width: 100%"/>
+	  <p>Pascal Romain (Product Owner) <a href="http://twitter.com/keronos">@keronos</a></p>
+	  <p>Sylvain Thénault (Scrum Master) <a href="http://twitter.com/sythenault">@sythenault</a></p>
+	  <p>Pierre-Etienne Cassagnau (Sys Admin Officer)</p>
+        <img src="pictures/girondedepartement1.fw.png" style="float: left; margin-bottom: 20px;"/>
+        <img src="pictures/logilab.svg" style="float: right;"/>
 	</div></section>
+<<<<<<< HEAD
 	<section class="slide">
 		<div>
 			<h2>SAEM Features</h2>
@@ -90,6 +95,52 @@ p.legend {
 				</ul>	
 		</div>
 	</section>
+=======
+
+	<section class="slide"><div>
+	  <h2>SAEM Features</h2>
+	  <ol>
+	    <li><a href="http://saem.e-bordeaux.org">Blog en ligne </a></li>
+	    <li>Référencement sur les réseaux pro et sociaux <a href="http://twitter.com/projetsaem">@projetsaem</a></li>
+	    <li>Delphine Jamet <a href="https://demo.logilab.fr/saem-test/11677?vid=owlabox">e-archiviste</a></li>
+	  </ol>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Archivage et électronique</h2>
+	  <p>Un mariage impossible ?.</p>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Objectifs</h2>
+        <ol>
+          <li>Rendre disponible les données de référence</li>
+          <li>Collecter les donner au long du cycle de vie des données documentaires
+            <ul class="exemple">
+              <li>https://demo.logilab.fr/saem-test/oai?verb=ListSets</li>
+              <li>archives liées à un concept https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=67717/T1-10</li>
+              <li>bienveillance : http://data.bnf.fr/12573796/bienveillance/</li>
+              <li>versements de la Direction Enfance et Famille de la ville de Bordeaux https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000067040</li>
+              <li>archives de Gironde : https://demo.logilab.fr/saem-test/oai?verb=GetRecord&amp;identifier=saemref-test/000013710</li>
+            </ul>
+          </li>
+        </ol>
+      </div></section>
+
+	<section class="slide"><div>
+	  <h2>Composantes du SAEM</h2>
+	  <ul style="width: 60%; float: left;">
+	    <li>Ge(d)stion courante [Alfresco 5 Community]</li>
+	    <li>SAE  [as@lae] </li>
+	    <li>Référentiel de données [CubicWeb]</li>
+	  </ul>
+        <img src="pictures/gowebsem.jpg" style="float: right;"/>
+        <p class="legend">CC-By-NC-SA semanticwebcompany</p>
+        <div style="clear: both;"></div>
+	  <p>mais surtout <b>interopérable</b> grâce aux techniques du Web Sémantique, et <b>libre</b>.</p>
+	</div></section>
+
+>>>>>>> origin/master
 	<section class="slide">
 		<div>
 			<h2>Fonctionnalités :</h2>
@@ -126,6 +177,11 @@ p.legend {
 		</div>
 	</section>
 	<section class="slide cover" id="Picture">
+	<style>
+			#Picture h2 {
+				color:#FFF;
+				}
+	</style>
 	<div>
 		<h2>plusieurs vocabulaires</h2>
 		<img src="pictures/picture.jpg" alt="">
@@ -169,37 +225,12 @@ p.legend {
 			<img src="pictures/audit.jpeg">
 		</div>
 	</section>
-	
-	<style>
-			#Picture h2 {
-				color:#FFF;
-				}
-			#SeeMore h2 {
-				font-size:100px
-				}
-			#SeeMore img {
-				width:0.72em;
-				height:0.72em;
-				}
-		</style>
-	</div></section>
 
 	<section class="slide"><div>
 		<h2>Dev agile</h2>
 		<ul style="width: 60%; float: left;">
 			<li>feed me!</li>
 		</ul>
-	</div></section>
-
-	<section class="slide"><div>
-	  <h2>Quelles sont les composantes du SAEM ?</h2>
-	  <ul style="width: 60%; float: left;">
-	    <li>Alfresco, As@lae, Référentiel (sur la base de CubicWeb)</li>
-	    <li>mais surtout <b>interopérable</b> grâce aux techniques du Web Sémantique,</li>
-	    <li>et <b>libre</b>.</li>
-	  </ul>
-        <img src="pictures/gowebsem.jpg" style="float: right;"/>
-        <p class="legend">CC-By-NC-SA semanticwebcompany</p>
 	</div></section>
 
 	<section class="slide"><div>
