@@ -1,13 +1,38 @@
 <!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<title>SAE</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=792, user-scalable=no">
-	<meta http-equiv="x-ua-compatible" content="ie=edge">
-      <link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css">
-</head>
-<body class="list">
+<html lang="fr">
+  <head>
+	<title>SAE - Paris Open Source Summit 2015</title>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=792, user-scalable=no"/>
+	<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+      <link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css"/>
+	  <style>
+#Cover h2 {
+  margin:30px 0 0;
+  color:#FFF;
+  text-align:center;
+  font-size:70px;
+}
+#Cover p {
+  margin:10px 0 0;
+  text-align:center;
+  color:#FFF;
+  font-style:italic;
+  font-size:20px;
+}
+#Cover p a {
+  color:#FFF;
+}
+p.legend {
+  color:#999;
+  text-align:rigth;
+  font-style:italic;
+  font-size:16px;
+  float: right;
+}
+	  </style>
+  </head>
+  <body class="list">
 	<header class="caption">
 		<h1>Présentation</h1>
 		<p>Super</p>
@@ -16,28 +41,6 @@
 		<h2>Couverture</h2>
 		<p>Brought to you by <a href="http://pepelsbey.net">Vadim Makeev</a></p>
 		<img src="pictures/bandgoSAEM.jp.png" alt="">
-		<!--
-			To apply styles to the certain slides
-			set slide ID to get needed elements
-			-->
-		<style>
-			#Cover h2 {
-				margin:30px 0 0;
-				color:#FFF;
-				text-align:center;
-				font-size:70px;
-				}
-			#Cover p {
-				margin:10px 0 0;
-				text-align:center;
-				color:#FFF;
-				font-style:italic;
-				font-size:20px;
-				}
-				#Cover p a {
-					color:#FFF;
-					}
-		</style>
 	</div></section>
 	<section class="slide"><div>
 		<h2>SAEM Features</h2>
@@ -163,14 +166,58 @@ xnew			<figcaption>Marcus Tullius Cicero</figcaption>
 				}
 		</style>
 	</div></section>
-	<p class="badge"><a href="https://github.com/shower/shower">Fork me on Github</a></p>
-	<!--
-		To hide progress bar from entire presentation
-		just remove “progress” element.
-		-->
+
+	<section class="slide"><div>
+		<h2>Dev agile</h2>
+		<ul style="width: 60%; float: left;">
+			<li>feed me!</li>
+		</ul>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Quelles sont les composantes du SAEM ?</h2>
+	  <ul style="width: 60%; float: left;">
+	    <li>Alfresco, As@lae, Référentiel (sur la base de CubicWeb)</li>
+	    <li>mais surtout <b>interopérable</b> grâce aux techniques du Web Sémantique,</li>
+	    <li>et <b>libre</b>.</li>
+	  </ul>
+        <img src="pictures/gowebsem.jpg" style="float: right;"/>
+        <p class="legend">CC-By-NC-SA semanticwebcompany</p>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Pourquoi le libre ?</h2>
+	  <ul style="width: 60%; float: left;">
+	    <li><strike>préconisé par l'état</strike></li>
+	    <li>surtout <b>logique</b> dans le cadre d'investissements pour répondre à un besoin commun</li>
+          <li>on bénéficie de briques existantes, on contribue en retour</li>
+	  </ul>
+        <img src="pictures/logicielslibres.png" style="float: right;"/>
+        <p class="legend">CC-By-NC-SA netpublic.fr</p>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Contributions à ce jour</h2>
+	  <ul style="width: 60%; float: left;">
+	    <li>composant SKOS pour CubicWeb,</li>
+	    <li>Linked CSV -> RDF,</li>
+	    <li>base pour une implémentation SEDA v0.2->2.0,</li>
+	    <li>mais aussi des réflexions autour des ontologies et thésaurus pour la gestion d'archives.</li>
+	  </ul>
+        <img src="pictures/Moebius_strip.png" style="float: right;"/>
+        <p class="legend">CC-By-SA Krishnavedala</p>
+	</div></section>
+
+	<section class="slide"><div>
+	  <h2>Et maintenant ?</h2>
+	  <ul>
+	    <li>Le meilleur reste à venir : suivi du cycle de vie des objets d'archives ;</li>
+	    <li>Adaptez le à votre environnement et contribuez des connecteurs dès maintenant !</li>
+	    <li>Suivez nous : <img src="pictures/twitter.png"/> <a href="http://twitter.com/projetsaem">@projetsaem</a>  <a href="http://twitter.com/logilab">@logilab</a></li>
+	  </ul>
+	</div></section>
+
 	<div class="progress"><div></div></div>
 	<script src="shower/shower.min.js"></script>
-	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
-	<!-- Photos by John Carey, fiftyfootshadows.net -->
-</body>
+  </body>
 </html>
