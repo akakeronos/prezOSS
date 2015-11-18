@@ -7,10 +7,10 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge"/>
       <link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css"/>
 	  <style>
-#Cover {
+#Cover, #End {
   background-color: #EFEFEF;
 }
-#Cover img {
+#Cover img, #End img {
   position: relative;
   with: 100%;
   margin-top: 40px;
@@ -33,7 +33,7 @@ p.legend {
   font-size:16px;
   float: right;
 }
-ul.exemple li{
+ul.exemple li {
   text-decoration: none;
   font-size:20px;
   color:#999;
@@ -50,6 +50,10 @@ ul.exemple li{
   color: #FFF !important;
   text-align:center;
 }
+
+a {
+  text-decoration: none !important;
+}
 	  </style>
   </head>
   <body class="list">
@@ -64,10 +68,10 @@ ul.exemple li{
 	  <p>Pascal Romain (Product Owner) <a href="http://twitter.com/keronos">@keronos</a></p>
 	  <p>Sylvain Thénault (Scrum Master) <a href="http://twitter.com/sythenault">@sythenault</a></p>
 	  <p>Pierre-Etienne Cassagnau (Sys Admin Officer)</p>
-        <img src="pictures/girondedepartement1.fw.png"/>
-	  <img src="pictures/logoBdxMetro.jpg"/>
-	  <img src="pictures/logoBdx.jpg"/>
-        <img src="pictures/logilab.svg"/>
+        <img src="pictures/girondedepartement1.fw.png"  style="position:absolute; top:450px; left: 100px"/>
+	  <img src="pictures/Bordeaux_Metropole_logo.png"  style="position:absolute; top:490px; left:360px;"/>
+	  <img src="pictures/logoBdx.jpg"  style="position:absolute; top:480px; left:600px;"/>
+        <img src="pictures/logilab.svg"  style="position:absolute;  top:480px; left:750px;"/>
 	</div></section>
 
 
@@ -96,15 +100,9 @@ ul.exemple li{
 
 	<section class="slide">
 	  <div>
-		<h2>Classement</h2>
-		<img src="pictures/PlanClassement.jpg"/>
-	  </div>
-	</section>
-
-	<section class="slide">
-	  <div>
-	    <h2>Vocabulaire</h2>
-	    <img src="pictures/Thesaurus.jpg" style="text-align: center; width: 40%;"/>
+		<h2>Classement / Vocabulaire</h2>
+		<img src="pictures/PlanClassement.jpg" style="float: left;"/>
+ 	    <img src="pictures/Thesaurus.jpg" style="float: right; width: 40%;"/>
 	  </div>
 	</section>
 
@@ -344,15 +342,19 @@ ul.exemple li{
 	  </ul>
 	</div></section>
 
-	<section class="slide"><div>
+	<section class="slide cover" id="End"><div>
 	  <h2>Avec vous ?</h2>
-	  <ul>
+	  <p style="width:70%; float:left">
           <!-- <li><a href="https://www.cubicweb.org/project/cubicweb-saem_ref">CubicWeb</a></li> -->
-	    <li>Adaptez le à votre environnement et contribuez des connecteurs dès maintenant !</li>
-		<li><a href="http://saem.e-bordeaux.org"><img src="pictures/logoSAEM.jpg">Blog en ligne </a></li>
-	    <li>Suivez nous : <img src="pictures/twitter.png"/> <a href="http://twitter.com/projetsaem">@projetsaem</a>  <a href="http://twitter.com/logilab">@logilab</a></li>
-	  </ul>
-        <p>Merci !</p>
+	    Adaptez le à votre environnement et contribuez des connecteurs dès maintenant !
+	  </p>
+        <img src="pictures/logoSAEMft.png" style="float:right; width 30%"/>
+        <div style="clear: both;"></div>
+	  <p class="note" style="font-size: 80%">
+          Blog en ligne http://saem.e-bordeaux.org<br/>
+	    Code source du référentiel https://www.cubicweb.org/project/cubicweb-saem_ref<br/>
+	    Suivez nous : @projetsaem @logilab
+        <p style="text-align: center"><b>Merci !<b></p>
 	</div></section>
 
 
